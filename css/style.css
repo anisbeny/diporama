@@ -1,0 +1,57 @@
+body {
+    margin: 0
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.diapo {
+    position: relative;
+    overflow: hidden;
+}
+
+.gauche,
+.droite {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.gauche {
+    left: 0;
+}
+
+.droite {
+
+    right: 0;
+
+}
+
+.myslides {
+    display: flex;
+    transition: 1s linear;
+}
+
+.myslide {
+    flex: 1 0 100%;
+    position: relative;
+}
+
+.myslide > img{
+    width: 100%;
+}
+
+.texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 30px;
+}
