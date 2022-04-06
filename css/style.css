@@ -4,6 +4,8 @@ body {
 h1{
     text-transform: uppercase;
     color:red;
+    text-align: center;
+    margin-top: 20px;
 }
 section {
     width: 80%;
